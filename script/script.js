@@ -12,3 +12,16 @@ function getComputerChoice() {
         return "scissors";
     }
 }
+
+function getHumanChoice() {
+    let humanChoice = parseInt(prompt("Please enter your choice:\n1: rock\n2: paper\n3:scissors\n"));
+        if(humanChoice === 1) {
+        return "rock";
+    }
+    else if(humanChoice === 2) {
+        return "paper";
+    }
+    else if(humanChoice === 3) {
+        return "scissors";
+    }
+}
