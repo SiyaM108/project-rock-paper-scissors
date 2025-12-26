@@ -1,5 +1,9 @@
 console.log("Hello, World!");
 
+let computerScore = 0;
+let humanScore = 0;
+let rounds = 0;
+
 function getComputerChoice() {
     let choice = Math.floor((Math.random() * 3) + 1);  // random number from 1 to 3
     if(choice === 1) {
